@@ -85,6 +85,10 @@ get_OS() {
   log -e "OS: $(uname -s)"
 }
 
+check 
+check 
+check 
+
 check_disk_and_memory() {
   log -e "\n\n==================== MEMORY INFORMATION ===================="
   os_type=$(get_OS)
